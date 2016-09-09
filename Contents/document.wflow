@@ -129,7 +129,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>769.000000:112.000000</string>
+				<string>649.000000:112.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -193,7 +193,6 @@ url=`echo $@ | /usr/bin/awk '{print $2}'`
 if [ -z "$url" ]
 then
 	url=$user;
-    /usr/bin/osascript -e "display notification \"$url\""
 fi
 
 
@@ -333,7 +332,7 @@ fi
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>769.000000:668.000000</string>
+				<string>649.000000:602.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -343,7 +342,7 @@ fi
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>CBF9813B-3D2B-4274-9EC6-62AC7D31A6A1</key>
+		<key>7654F859-D525-4C8E-88DE-D87C60AA30AA</key>
 		<dict>
 			<key>from</key>
 			<string>43D57F17-1D25-422D-A9CD-55ACE5D8FD8C - 43D57F17-1D25-422D-A9CD-55ACE5D8FD8C</string>
