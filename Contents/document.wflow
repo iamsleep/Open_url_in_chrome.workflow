@@ -83,7 +83,7 @@
 				<key>Class Name</key>
 				<string>AMGetSpecifiedTextAction</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Keywords</key>
 				<array>
 					<string>Get</string>
@@ -127,14 +127,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>649.000000:112.000000</string>
+				<string>649.000000:237.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -332,7 +332,7 @@ fi
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>649.000000:602.000000</string>
+				<string>649.000000:420.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -342,7 +342,7 @@ fi
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>7654F859-D525-4C8E-88DE-D87C60AA30AA</key>
+		<key>41BF8B6E-A9C6-4D54-B23A-633BACF17E86</key>
 		<dict>
 			<key>from</key>
 			<string>43D57F17-1D25-422D-A9CD-55ACE5D8FD8C - 43D57F17-1D25-422D-A9CD-55ACE5D8FD8C</string>
@@ -353,7 +353,7 @@ fi
 	<key>workflowMetaData</key>
 	<dict>
 		<key>serviceInputTypeIdentifier</key>
-		<string>com.apple.Automator.text</string>
+		<string>com.apple.Automator.text.url</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
